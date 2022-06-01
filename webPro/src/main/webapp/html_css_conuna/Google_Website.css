@@ -1,0 +1,137 @@
+@charset "UTF-8";
+body{
+	display: contents;
+	font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+/* head */
+.navbar_left{
+	float: left;
+	margin: 20px;
+	font-size: 14px;
+}
+
+.navbar_right{
+	float: right;
+	margin: 20px;
+	font-size: 13px;
+}
+
+.nav_item_left{
+	text-decoration: none;
+	color: black;
+	margin-right: 15px;
+}
+
+.nav_item_right{
+	text-decoration: none;
+	color: black;
+	margin-left: 15px;
+}
+
+.nav_item_left:hover, .nav_item_right:hover{
+	text-decoration: underline;
+}
+
+/* main */
+.main{
+	margin: 100px 0 0;
+	text-align: center;
+}
+
+.input_area{
+	margin: 20px 0 0;
+}
+
+.input_box{
+	width: 420px;
+	height: 39px;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	padding-left: 40px;
+	padding-right: 80px;
+}
+
+.input_box:hover{
+	background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+.search_icon{
+	position: relative;
+	left: 40px;
+	color: #9aa0a6;
+}
+
+.keyboard_icon{
+	position: relative;
+	right: 80px;
+	color: #9aa0a6;
+}
+
+.mic_icon{
+	position: relative;
+	right: 60px;
+	color: #9aa0a6;
+}
+
+.button_area{
+	padding-top: 18px;
+}
+
+.button_style{
+	height: 34px;
+	padding: 0 16px;
+	margin: 11px 4px;
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.button_style:hover{
+	box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+	position: absolute;
+	bottom: 0px;
+	background: #f2f2f2;
+	width: 100%;
+}
+
+.first_line{
+	padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second_line{
+	padding: 15px 50px;
+	font-size: 15px;
+    color: #70757a;
+}
+
+.second_line_second{
+	float: right;
+}
+
+.second_line_item{
+	text-decoration: none;
+	font-size: 14px;
+    color: #70757a;
+    padding: 15px;
+    
+}
+
+.second_line_item:hover{
+	text-decoration: underline;
+}
